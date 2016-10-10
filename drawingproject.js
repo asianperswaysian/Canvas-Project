@@ -118,8 +118,22 @@ canvas.beginPath();
                 canvas.fill();
 
                 canvas.beginPath();
-                canvas.fillStyle = 'white';
-                canvas.moveTo(200,100);
-                canvas.lineTo(300,50);
-                canvas.lineTo(200,50);
+                canvas.fillStyle = 'black';
+                canvas.moveTo(1300,100);
+                canvas.lineTo(1200,50);
+                canvas.lineTo(1300,50);
+                canvas.fill();
+
+                canvas.beginPath();
+                canvas.fillStyle = 'black';
+                canvas.moveTo(1200,120);
+                canvas.lineTo(1100,70);
+                canvas.lineTo(1200,70);
+                canvas.fill();
+
+                canvas.beginPath();
+                canvas.fillStyle = 'black';
+                canvas.moveTo(1400,140);
+                canvas.lineTo(1300,90);
+                canvas.lineTo(1400,90);
                 canvas.fill();
